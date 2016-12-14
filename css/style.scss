@@ -1,4 +1,6 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
@@ -29,11 +31,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 html{
   background: url(../images/stormy-weather-background.jpg);
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #container {
+  color:  white;
+  font-family: Oxygen, Arial, sans-serif;
 
+}
+
+#title {
+  background: black;
+  opacity: .5;
+  font-size: 5rem;
+  height: 100px;
+  padding-left: 2%;
+}
+
+
+#lyrics {
+  border: solid white 4px;
+  float: left;
+  width: 50%;
+}
+
+#lyricsOutside{
+  opacity: .5;
+  background: black;
+  border: solid white 4px;
 }
