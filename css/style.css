@@ -43,6 +43,10 @@ html {
   padding-left: 2%;
   padding-top: 1.5%; }
 
+#icons {
+  float: right;
+  margin-right: 1.75%; }
+
 #lyrics {
   background: rgba(0, 0, 0, 0.5);
   border: double white 1.5vh;
